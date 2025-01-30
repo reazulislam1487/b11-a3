@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 03</title>
+  <!-- Fav -->
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+  <!-- Tailwind CDN -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <!-- FontAwesone CDN -->
+  <script src="https://kit.fontawesome.com/c69bb478eb.js" crossorigin="anonymous"></script>
+
+  <style>
+    .sora-font {
+      font-family: "Sora", serif;
+    }
+
+    :root {
+      --accent: #179800;
+      --secoundary: #efebe3;
+      --font: #111111d7;
+      /* use
+        [var(--blue)]
+         */
+    }
+  </style>
+</head>
+
+<body class="sora-font">
+  <header class="max-w-[1600px] mx-auto bg-gradient-to-b from-white to-[#EFEBE3]">
+    <!-- navbar start -->
+    <nav
+      class="max-w-[1320px] mx-auto px-3 p-5 flex justify-between items-center border md:border-none border-[#179800] mb-20">
+      <div class="left-nav">
+        <img class="visible md:hidden" src="./assets/logo.png" alt="" />
+        <img class="w-100% hidden md:block" src="./assets/logo-header.png" alt="" />
+      </div>
+      <div class="middle-nav hidden md:block">
+        <ul class="flex gap-8 text-xl">
+          <li><a href="">Products</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right-nav hidden md:block">
+        <i class="text-2xl mr-6 fa-solid fa-magnifying-glass"></i>
+        <i class="text-2xl mr-6 fa-solid fa-cart-shopping"></i>
+        <button class="py-[8px] pl-[30px] pr-12 mr-3 rounded-lg border text-xl border-[#179800]">
+          Login
+        </button>
+        <button class="py-[10px] px-[30px] rounded-lg text-xl bg-[#179800] text-white">
+          Register
+        </button>
+      </div>
+      <div class="hamburger md:hidden">
+        <i class="fa-solid fa-bars text-3xl text-[#179800]"></i>
+      </div>
+    </nav>
+    <!-- banner start -->
+    <section class="">
+      <div class="text-container w-9/10 md:w-7/10 text-center mx-auto">
+        <h1 class="text-3xl md:text-6xl font-semibold mb-5">
+          Freshness
+          <span class="text-[var(--accent)]">You Can <br />
+            Count</span>
+          On, Prices You'll Love!
+        </h1>
+        <p class="text-[#111111d7] text-[16px] md:text-xl">
+          Shop your daily essentials at unbeatable prices. From fresh produce
+          to pantry <br />
+          staples, we've got you covered every day!
+        </p>
+      </div>
+      <div class="img-container mt-10">
+        <img class="w-100% mx-auto" src="./assets/hero-vegetables.png" alt="" />
+      </div>
+    </section>
+  </header>
+  <!-- Services start -->
+  <section class="max-w-[1320px] mx-auto my-12 lg:my-[140px]">
+    <h1 class="text-[var(--accent)] text-2xl lg:text-4xl font-semibold mx-4">
+      Services
+    </h1>
+    <!-- box container -->
+    <div class="box-container my-8 md:my-12 flex flex-col md:flex-row md:justify-between gap-5 mx-4 md:gap-6">
+      <!-- box 1  -->
+      <div class="box1 p-8 text-center md:w-4/13 bg-[var(--secoundary)] rounded-2xl">
+        <div class="img-bg-color bg-white w-[150px] h-[150px] rounded-full mx-auto">
+          <img class="mx-auto relative top-6" src="./assets/service.png" alt="" />
+        </div>
+        <h1 class="my-3 text-xl md:text-2xl font-semibold">24/7 Services</h1>
+        <p class="mb-3 md:text-xl text-[#111111d7]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt
+        </p>
+      </div>
+      <!-- box 2 -->
+      <div class="box1 p-8 text-center md:w-4/13 bg-[var(--secoundary)] rounded-2xl">
+        <div class="img-bg-color bg-white w-[150px] h-[150px] rounded-full mx-auto">
+          <img class="mx-auto relative top-6" src="./assets/delivery.png" alt="" />
+        </div>
+        <h1 class="my-3 text-xl md:text-2xl font-semibold">Fast Delivery</h1>
+        <p class="mb-3 md:text-xl text-[#111111d7]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt
+        </p>
+      </div>
+      <!-- box 3  -->
+      <div class="box1 p-8 text-center md:w-4/13 bg-[var(--secoundary)] rounded-2xl">
+        <div class="img-bg-color bg-white w-[150px] h-[150px] rounded-full mx-auto">
+          <img class="mx-auto relative top-6" src="./assets/healthy.png" alt="" />
+        </div>
+        <h1 class="my-3 text-xl md:text-2xl font-semibold">
+          Healthy Products
+        </h1>
+        <p class="mb-3 md:text-xl text-[#111111d7]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt
+        </p>
+      </div>
+    </div>
+    <!-- img container -->
+  </section>
+  <!-- Popular start -->
+  <section class="max-w-[1600px] h-[800px] mx-auto bg-[var(--secoundary)] mb-12 md:mb-[140px]">
+    <section class="max-w-[1320px] mx-auto my-12 lg:py-[140px]">
+      <h1 class="text-[var(--accent)] text-2xl lg:text-4xl font-semibold mx-4">
+        Popular Products
+      </h1>
+      <div>
+        <!-- left side -->
+        <div>
+
+        </div>
+        <!-- right side -->
+        <div>
+
+        </div>
+      </div>
+    </section>
+</body>
+
+</html>
