@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8" />
@@ -14,6 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
   <!-- Tailwind CDN -->
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <!-- daisyUI CDN -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" /> -->
   <!-- FontAwesone CDN -->
   <script src="https://kit.fontawesome.com/c69bb478eb.js" crossorigin="anonymous"></script>
 
@@ -131,17 +133,32 @@
   <!-- Popular start -->
   <section class="max-w-[1600px] h-[800px] mx-auto bg-[var(--secoundary)] mb-12 md:mb-[140px]">
     <section class="max-w-[1320px] mx-auto my-12 lg:py-[140px]">
-      <h1 class="text-[var(--accent)] text-2xl lg:text-4xl font-semibold mx-4">
+      <h1 class="text-[var(--accent)] text-2xl lg:text-4xl font-semibold mx-4 md:mx-0">
         Popular Products
       </h1>
-      <div>
+      <div class=" max-w-[1320px] mx-auto my-8  md:my-12 flex gap-2 justify-between ">
         <!-- left side -->
-        <div>
+        <div class="w-4/12 h-[400px] relative bg-linear-to-br rounded-xl p-7 pt-12 from-[#32d415] to-[#3bff195e]
+        h-8">
+          <h1 class="text-white  mb-3 text-2xl font-bold opacity-90 lg:text-4xl ">30% off</h1>
+          <p class="mb-3 md:text-xl text-[#111111a3] w-5/6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
+            ad
+          </p>
+          <button class="px-8 py-4 rounded-xl bg-white md:text-xl">Buy Now</button>
+          <img class="absolute bottom-0 right-0" src="./assets/vegetable-offer.png" alt="">
 
         </div>
         <!-- right side -->
-        <div>
+        <div class="w-8/12 h-[400px] rounded-xl bg-slate-300 h-8 ">
+          <div class="grid grid-cols-3 grid-rows-3">
+            <div class=" bg-white gap-3 rounded-xl">
+              <h1>Reaz</h1>
+            </div>
 
+            <div>
+              <h1>Reaz</h1>
+            </div>
+          </div>
         </div>
       </div>
     </section>
