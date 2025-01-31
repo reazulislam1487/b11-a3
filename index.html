@@ -138,7 +138,7 @@
         Popular Products
       </h1>
       <!-- content  -->
-      <div class=" max-w-[1320px] mx-auto my-8  md:my-12 flex flex-col md:flex-row gap-2 justify-between ">
+      <div class=" max-w-[1320px] mx-auto my-8  md:my-12 flex flex-col md:flex-row gap-7 md:gap-1 justify-between ">
         <!-- left side -->
         <div class=" mx-3 w-100% md:w-4/12 h-[380px] relative bg-linear-to-br rounded-xl p-7 pt-12 from-[#32d415] to-[#3bff195e]
         h-8">
@@ -258,7 +258,7 @@
     </section>
   </section>
   <!-- Arrival Start -->
-  <section class="max-w-[1600px] mx-auto mb-12 md:mb-[140px] overflow-hidden">
+  <section class="  max-w-[1600px] mx-auto mb-12 md:mb-[140px] overflow-hidden">
     <section class="max-w-[1320px] mx-auto md:my-12 ">
       <!-- header text  -->
       <h1 class="text-[var(--accent)] text-2xl lg:text-4xl font-semibold mx-4 md:mx-0">
@@ -268,12 +268,13 @@
         <!-- left side -->
         <div class="mx-3 w-100% md:w-7/12 flex justify-between items-center rounded-4xl bg-[#115414]">
           <!-- child 1  -->
-          <div class="space-y-5 p-10">
-            <img src="./assets/dawat-logo.png" alt="">
-            <button class="py-4 px-10 text-white bg-[#63B76D] text-2xl rounded-2xl">
-              Cook Exotic Dishes
+          <div class="space-y-5 p-4 md:p-10">
+            <img class="relative" src="./assets/dawat-logo.png" alt="">
+            <button
+              class=" py-3 px-5  md:py-4 md:px-10 text-[12px] text-white bg-[#63B76D] md:text-2xl md:rounded-xl rounded-lg">
+              Cook Exotic
             </button>
-            <h2 class="text-white text-[40px]">UP to <span class="font-bold">20% OFF</span></h2>
+            <h2 class="text-white text-xl md:text-[38px]">UP to <span class="font-bold">20% OFF</span></h2>
           </div>
           <!-- child 2 -->
           <div class="mt-10">
@@ -284,14 +285,15 @@
         <div class="mx-3 w-100% md:w-5/12 flex justify-between items-center rounded-4xl bg-[#102861]">
           <!-- child 1 -->
           <div class="space-y-5 p-8">
-            <img src="./assets/india-gate-logo.png" alt="">
-            <button class="py-4 px-10 text-white bg-[#2A4D97] text-2xl rounded-2xl">
-              World's No.1 Rice </button>
-            <h2 class="text-white text-[40px]">UP to <span class="font-bold">40% OFF</span></h2>
+            <img class="w-[65px] md:w-[100px]" src="./assets/india-gate-logo.png" alt="">
+            <button
+              class="py-3 px-5 md:py-4 md:px-10 text-[12px] text-white bg-[#2A4D97] md:text-2xl md:rounded-xl rounded-lg">
+              World's No.1 </button>
+            <h2 class="text-white text-xl md:text-[37px]">UP to <span class="font-bold">40% OFF</span></h2>
           </div>
           <!-- child 2 -->
           <div class="mt-10">
-            <img class="md:relative right-2" src="./assets/india-gate-mock-up.png" alt="">
+            <img class="relative right-3 w-[130px] md:w-full " src="./assets/india-gate-mock-up.png" alt="">
           </div>
         </div>
       </div>
@@ -299,38 +301,56 @@
   </section>
 
 
-  <footer class="max-w-[1600px] h-[700px] bg-[#179800] mx-auto mt-12 md:mb-[140px] overflow-hidden flex ">
-    <div
-      class="w-[1320px] md:mx-auto my-8  md:my-12 flex flex-col md:flex-row gap-2 justify-end mx-3 md:justify-between md:items-end ">
-      <!-- img div -->
-      <div class=" md:w-1/3 pb-10">
-        <img src="./assets/logo-footer.png" alt="">
-        <p class="text-[#EFEBE3] text-[16px] md:text-xl">
-          Discover a world of treats, toys, and essentials
-          handpicked for your furry friends
-        </p>
-      </div>
-      <!-- middle div -->
-      <div class="w-1/3 pb-10">
-        <ul class="text-[#EFEBE3] text-[16px] md:text-xl space-y-6">
-          <li><a href="">Product</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Contact us</a></li>
-        </ul>
-      </div>
-      <!-- follow div -->
+  <!-- get start -->
+  <footer class="footer max-w-[1600px] md:mt-110 mt-88 bg-[#179800] mx-auto ">
+    <section
+      class="max-w-[1320px] mx-3 relative bottom-80 flex text-center md:text-left  items-center justify-evenly flex-col md:flex-row bg-[var(--secoundary)] rounded-3xl md:mx-auto lg:py-[140px]">
       <div class="">
-        <h6 class="text-[#EFEBE3] text-[16px] md:text-xl mb-4">Follow us</h6>
-        <div class="flex gap-6">
-          <img src="./assets/fb.png" alt="">
-          <img src="./assets/ins.png" alt="">
-          <img src="./assets/lindin.png" alt="">
-          <img src="./assets/youtube.png" alt="">
+        <img class="py-7" src="./assets/vegetable-busket.png" alt="">
+      </div>
+      <div class="space-y-7 pb-10">
+        <h1 class="md:text-4xl text-2xl text-[var(--accent)] md:text-black font-semibold">Get Grocery News!</h1>
+        <p class=" w-11/12 md:w-full text-lg">Exclusive training tips, ticks, product deals and more.</p>
+        <input class=" w-10/12 md:w-[472px] h-[67px] bg-white p-4 rounded-lg" type="email"
+          placeholder="Enter email....">
+        <br>
+        <button class="py-2 px-7 text-xl bg-[var(--accent)] text-white rounded-lg">Subscribe</button>
+      </div>
+    </section>
+    <!-- footer start -->
+    <footer class="max-w-[1600px]  bg-[#179800] mx-auto overflow-hidden flex ">
+      <!-- footer -->
+      <div
+        class="w-[1320px] md:mx-auto mb-8 md:mb-12 flex flex-col md:flex-row gap-2 justify-end mx-3 md:justify-between md:items-end ">
+        <!-- img div -->
+        <div class=" md:w-1/3 space-y-5 pb-10">
+          <img src="./assets/logo-footer.png" alt="">
+          <p class="text-[#EFEBE3] text-[16px] md:text-xl">
+            Discover a world of treats, toys, and essentials
+            handpicked for your furry friends
+          </p>
+        </div>
+        <!-- middle div -->
+        <div class="w-1/3 pb-10">
+          <ul class="text-[#EFEBE3] text-[16px] md:text-xl space-y-6">
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+        <!-- follow div -->
+        <div class="">
+          <h6 class="text-[#EFEBE3] text-[16px] md:text-xl mb-4">Follow us</h6>
+          <div class="flex gap-6">
+            <img src="./assets/fb.png" alt="">
+            <img src="./assets/ins.png" alt="">
+            <img src="./assets/lindin.png" alt="">
+            <img src="./assets/youtube.png" alt="">
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   </footer>
-
 
 </body>
 
